@@ -1,5 +1,4 @@
 # 1:1 고스톱 게임
-구현 중 입니다.
 
 최신 소스코드: game-service branch
 
@@ -12,13 +11,17 @@
 대기실&유저 서비스
 - 회원가입(이메일 인증 기반)
 - 로그인(인증서버와 연동)
+- todo: 친구추가
 - 기술스택: spring boot mvc, jpa, redis
 
 게임 서비스
-- 게임로직 구현중(70% 완료)
+- 게임로직 구현중(점수계산, 기본로직 구현 거의 운료)
+- todo: 흔들기/뻑등 특수로직 구현, 점수에 따른 고/스톱 기능 구현, 보너스점수(피박 등) 구현
+- todo: 보안기능 추가
 - 기술스택: spring webflux, redis, WebSocket
 
-spring cloud 또는 aws로 서버 관리 예정
+todo: spring cloud 또는 aws로 서버 관리 예정
+todo: 배포
 
-로깅 서비스 예정
+todo: 로깅 서비스
 - 게임 리플레이 등
